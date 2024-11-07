@@ -1,0 +1,6 @@
+framework module HXPhotoPickerKit {
+  umbrella header "HXPhotoPickerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

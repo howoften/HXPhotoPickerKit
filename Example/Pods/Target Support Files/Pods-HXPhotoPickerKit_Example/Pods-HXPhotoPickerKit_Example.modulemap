@@ -1,0 +1,6 @@
+framework module Pods_HXPhotoPickerKit_Example {
+  umbrella header "Pods-HXPhotoPickerKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

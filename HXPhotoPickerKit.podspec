@@ -32,13 +32,13 @@ TODO: Add long description of the pod here.
 
   s.static_framework  =  true # 是否是静态库
   s.requires_arc = true  # 是否是 arc 环境
-  # s.source_files = 'XXXXX/Classes/**/*'  # 因为是使用 .framework 所以只暴露头文件
+  s.source_files = 'HXPhotoPickerKit/Classes/HXPhotoPicker.framework/Headers/*.{h}'  # 因为是使用 .framework 所以只暴露头文件
   s.vendored_frameworks = ['HXPhotoPickerKit/Classes/HXPhotoPicker.framework'] #  .framework 资源路径
-  s.resource = 'HXPhotoPickerKit/Classes/HXPhotoPicker.framework/Headers'
+  # s.resource = 'HXPhotoPickerKit/Classes/HXPhotoPicker.framework/Headers'
   # s.resource_bundles = {  # 图片资源
   #   'XXXXX' => ['XXXXX/Assets/*.png']
   # }
-  s.public_header_files = 'HXPhotoPickerKit/Classes/HXPhotoPicker.framework/Headers/*.h'  # framework 暴露的头文件
+  s.public_header_files = 'HXPhotoPickerKit/Classes/HXPhotoPicker.framework/Headers/*.{h}'  # framework 暴露的头文件
   s.frameworks = 'Foundation', 'CoreFoundation', 'UIKit'  # 依赖的 frameworks
   s.dependency 'SDWebImage' # 依赖的 第三方
   s.dependency 'AFNetworking' # 依赖的 第三方

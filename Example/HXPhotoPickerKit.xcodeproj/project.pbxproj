@@ -208,7 +208,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				7106F6F2FEBFCEA03118DE38 /* [CP] Embed Pods Frameworks */,
-				9DE304656C5B3A80EF1D07F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -342,24 +341,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HXPhotoPickerKit_Example/Pods-HXPhotoPickerKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9DE304656C5B3A80EF1D07F9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HXPhotoPickerKit_Example/Pods-HXPhotoPickerKit_Example-resources.sh",
-				"${PODS_ROOT}/../../HXPhotoPickerKit/Classes/HXPhotoPicker.framework/Headers",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Headers",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HXPhotoPickerKit_Example/Pods-HXPhotoPickerKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C13A9118D6021A7334D2F52A /* [CP] Check Pods Manifest.lock */ = {

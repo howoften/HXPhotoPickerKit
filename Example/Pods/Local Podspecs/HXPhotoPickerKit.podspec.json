@@ -20,11 +20,11 @@
   },
   "static_framework": true,
   "requires_arc": true,
+  "source_files": "HXPhotoPickerKit/Classes/HXPhotoPicker.framework/Headers/*.{h}",
   "vendored_frameworks": [
     "HXPhotoPickerKit/Classes/HXPhotoPicker.framework"
   ],
-  "resources": "HXPhotoPickerKit/Classes/HXPhotoPicker.framework/Headers",
-  "public_header_files": "HXPhotoPickerKit/Classes/HXPhotoPicker.framework/Headers/*.h",
+  "public_header_files": "HXPhotoPickerKit/Classes/HXPhotoPicker.framework/Headers/*.{h}",
   "frameworks": [
     "Foundation",
     "CoreFoundation",

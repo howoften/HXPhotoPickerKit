@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HXPhotoPickerKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A framework of HXPhotoPickerKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,6 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.static_framework  =  true # 是否是静态库
   s.requires_arc = true  # 是否是 arc 环境
   s.source_files = 'HXPhotoPickerKit/Classes/HXPhotoPicker.framework/Headers/*.{h}'  # 因为是使用 .framework 所以只暴露头文件
   s.vendored_frameworks = ['HXPhotoPickerKit/Classes/HXPhotoPicker.framework'] #  .framework 资源路径

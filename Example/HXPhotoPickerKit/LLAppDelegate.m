@@ -7,7 +7,8 @@
 //
 
 #import "LLAppDelegate.h"
-
+//pod repo push HXPhotoPickerKit HXPhotoPickerKit.podspec --use-libraries --skip-import-validation --allow-warnings
+//pod trunk push HXPhotoPickerKit.podspec --verbose --allow-warnings
 @implementation LLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
